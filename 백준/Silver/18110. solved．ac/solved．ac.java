@@ -8,7 +8,7 @@ class Main {
     double length = n * 0.15;
     Arrays.sort(vote);
     if(length % 1 >= 0.5){
-      delete = (int)length + 1;
+      delete = (int)(length + 0.5);
     }
     else delete = (int)length;
     double avg = 0;
